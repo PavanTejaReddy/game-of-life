@@ -17,7 +17,7 @@ public class Grid {
 
     private Cell[][] cells;
 
-	// Helper classes with functions to access cell information
+	// Helper classes with functions to access the cell information
     private GridReader gridReader = new GridReader();
     private GridWriter gridWriter = new GridWriter();
 

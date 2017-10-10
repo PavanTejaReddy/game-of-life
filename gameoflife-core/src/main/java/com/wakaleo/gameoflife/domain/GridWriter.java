@@ -19,7 +19,7 @@ public class GridWriter {
                 printedGrid.append(cell.toString()); // Save the cell's status for printing purposes
             }
             
-			// Add seperator to denote the next row
+			// Add seperator inorder: denote the next row
 			// Note: does not add seperator for empty rows
             if (row.length > 0) {
                 printedGrid.append(LINE_SEPARATOR);

@@ -93,7 +93,7 @@ public class Grid {
         return cells[0].length - 1;
     }
 
-	// Makes sure cell does not count itself as a neighbour
+	// Makes sure cell doesn't:wq count itself as a neighbour
 	// In a simple example, creating a new validation function may not be necessary
 	// However, if validation later becomes complex, a seperate function is good practice
     private boolean cellIsCentralCell(final int x, final int y,

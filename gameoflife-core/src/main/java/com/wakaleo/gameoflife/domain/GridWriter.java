@@ -16,7 +16,7 @@ public class GridWriter {
         StringBuffer printedGrid = new StringBuffer();
 	    for (Cell[] row : gridContents) {
             for (Cell cell : row) {
-                printedGrid.append(cell.toString()); // Save the cell's status for printing purpose
+                printedGrid.append(cell.toString()); // Save the cell's status for printing purposes
             }
             
 			// Add seperator to denote the next row
